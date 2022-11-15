@@ -1,38 +1,50 @@
+html {
+  min-height: 100vh;
+  /* background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v712-noon-02-a-leavesframe_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=db868af3ccff94672bc7c7cd6be10a49"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .App {
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+ul {
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
+  color: unset;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+img {
+  width: 100%
+}
+
+section {
+  padding: 60px 0px;
+}
+
+
+/* footer css */
+
+footer {
+  position: absolute;
+  bottom: 0;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 5px;
+  height: 15vh;
+}
+
+.footerBtn {
+  height: 50px;
+  gap: 20px;
+  margin-left: 20px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
