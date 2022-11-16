@@ -1,3 +1,39 @@
 .hero__section {
     background-color: #8CC185;
 }
+
+.hero__content h2 {
+    color: beige;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.hero__content p {
+    color: black;
+    line-height: 28px;
+}
+
+.hero__section p:nth-child(1) {
+    font-weight: 500;
+}
+
+.buy__btn {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: rgb(252, 148, 129);
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+.buy__btn a:hover {
+    color: aliceblue;
+}
+
+.hero__content {
+    padding-top: 45px;
+}

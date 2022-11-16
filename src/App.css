@@ -28,6 +28,11 @@ section {
   padding: 60px 0px;
 }
 
+.section__title {
+  color: black;
+  font-weight: 600;
+  text-align: center;
+}
 
 /* footer css */
 
